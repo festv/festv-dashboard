@@ -1,10 +1,10 @@
 import './App.css';
 import Register from 'pages/register';
-
+import { Text } from '@mantine/core';
 function App() {
   return (
     <div className='app'>
-      <h2>Hello from festv.org</h2>
+      <Text align='center' component='h4'>Hello from festv.org</Text>
       <Register />
     </div>
   );

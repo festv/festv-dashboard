@@ -3,12 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MantineProvider } from '@mantine/core';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <MantineProvider 
+    theme={{
+      colorScheme: 'dark',
+      colors: {
+        dark: ["#84b9d3", "#fff", "#fff", "#406981", "#008C86", "#677A86", "#234156", "#052a3a", "#000", "#000"],
+        main: ['#fff', '#1ea494', '#1ea494', '#1ea494', '#1ea494', '#1ea494', '#1ea494', '#1ea494', '#1ea494','#1ea494' ],
+      },
+      primaryColor: 'main'
+    }}
+    withGlobalStyles 
+    withNormalizeCSS
+  >
     <App />
-  </React.StrictMode>
+  </MantineProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
