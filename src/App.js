@@ -1,11 +1,22 @@
 import './App.css';
 import Register from 'pages/register';
-import { Text } from '@mantine/core';
+import Login from 'pages/login';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/login',
+      element: <Login />,
+    },
+    {
+      path: '/register',
+      element: <Register />
+    }
+  ])
   return (
     <div className='app'>
-      <Text align='center' component='h4'>Hello from festv.org</Text>
-      <Register />
+      <RouterProvider router={router} />
     </div>
   );
 }
