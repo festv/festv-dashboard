@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/festv-dashboard/static/css/main.ac1fd2dd.css",
-    "main.js": "/festv-dashboard/static/js/main.648c66c4.js",
+    "main.js": "/festv-dashboard/static/js/main.54107eac.js",
     "static/js/787.7a5207b0.chunk.js": "/festv-dashboard/static/js/787.7a5207b0.chunk.js",
     "index.html": "/festv-dashboard/index.html",
     "main.ac1fd2dd.css.map": "/festv-dashboard/static/css/main.ac1fd2dd.css.map",
-    "main.648c66c4.js.map": "/festv-dashboard/static/js/main.648c66c4.js.map",
+    "main.54107eac.js.map": "/festv-dashboard/static/js/main.54107eac.js.map",
     "787.7a5207b0.chunk.js.map": "/festv-dashboard/static/js/787.7a5207b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac1fd2dd.css",
-    "static/js/main.648c66c4.js"
+    "static/js/main.54107eac.js"
   ]
 }
