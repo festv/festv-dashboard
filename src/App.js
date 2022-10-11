@@ -1,10 +1,10 @@
 import './App.css';
 import Register from 'pages/register';
 import Login from 'pages/login';
-import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 function App() {
-  const router = createHashRouter([
+  const router = createBrowserRouter([
     {
       path: '/login',
       element: <Login />,
